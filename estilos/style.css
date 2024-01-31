@@ -1,1 +1,18 @@
 @charset "UTF-8";
+
+body{
+    background: url(../imagens/desenho-canto.jpg);
+    background-size: cover;
+    width: 95vw;
+    height: 95vh;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+main{
+    background: url(../imagens/mosaico-azul.jpg);
+    background-size: cover;
+    width: 600px;
+    height: 250px;
+    
+}
