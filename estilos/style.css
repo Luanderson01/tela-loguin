@@ -1,18 +1,44 @@
 @charset "UTF-8";
 
-body{
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html body{
     background: url(../imagens/desenho-canto.jpg);
     background-size: cover;
     width: 95vw;
     height: 95vh;
     background-position: bottom right;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 main{
-    background: url(../imagens/mosaico-azul.jpg);
-    background-size: cover;
-    width: 600px;
-    height: 250px;
-    
+    margin: auto;
+    padding: 25%;
+    min-width: 240px;
+    max-width: 800px;
+    height: 300px;
+}
+
+div#formulario{
+    background-color: rgb(180, 180, 245);
+    padding: 5px;
+    min-width: 240px;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-indent: 20px;
+    text-align: center;
 }
