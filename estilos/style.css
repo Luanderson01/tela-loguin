@@ -50,12 +50,6 @@ section#login{
     transition-timing-function: ease;
 }
 
-section > div#formulario > input{
-    padding: 5px;
-    margin-bottom: 10px;
-
-}
-
 section#login >  div#imagem{
     background: rgb(175, 175, 255) url(../imagens/mosaico-azul.jpg) no-repeat;
     height: 200px;
@@ -68,10 +62,23 @@ section#login >  div#imagem{
 section#login > div#formulario{
 
     background-color: rgb(180, 180, 245);
-background-position: left bottom;
+    background-position: left bottom;
     padding: 10px;
     min-width: 240px;
     max-width: 1200px;
     margin: auto;
     display: block;
+}
+
+h1, p{
+    text-indent: 10px;
+    text-align: center;
+    min-width: 230px;
+    display: block;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-shadow: 1px 3px  4px rgba(0, 0, 0, 0.329);
+    color: rgb(0, 0, 39);
+
 }

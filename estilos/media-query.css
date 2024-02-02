@@ -16,6 +16,8 @@
         float: left;
         width: 35%;
         height: 100%;
+        background-position: right top;
+        background-size: cover;
     }
 
     section#login > div#formulario{
@@ -23,6 +25,24 @@
         width: 65%;
         background-color: rgba(180, 180, 245, 0);
 
+    }
+
+    h1{
+        font-size: 2em;
+    }
+
+    p{
+        font-size: 1.2em;
+        text-indent: 10px;
+        text-align: center;
+        min-width: 230px;
+        display: block;
+        margin: auto;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        text-shadow: 1px 3px  4px rgba(0, 0, 0, 0.329);
+        color: rgb(0, 0, 39);
+    
     }
 
 
@@ -40,6 +60,10 @@
         float: left;
         width: 50%;
         height: 100%;
+
+        background-position: center bottom;
+        background-size: cover;
+
     }
 
     section#login > div#formulario{
@@ -51,6 +75,25 @@
     section{
         
         background-color: rgba(180, 180, 245, 0.274);
+    }
+
+    h1{
+        font-size: 2.3em;
+        color: black;
+    }
+
+    p{
+        font-size: 1.3em;
+        text-indent: 10px;
+        text-align: center;
+        min-width: 230px;
+        display: block;
+        margin: auto;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        text-shadow: 1px 3px  4px rgba(0, 0, 0, 0.329);
+        color: black;
+    
     }
 
     
