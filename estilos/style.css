@@ -50,6 +50,12 @@ section#login{
     transition-timing-function: ease;
 }
 
+section > div#formulario > input{
+    padding: 5px;
+    margin-bottom: 10px;
+
+}
+
 section#login >  div#imagem{
     background: rgb(175, 175, 255) url(../imagens/mosaico-azul.jpg) no-repeat;
     height: 200px;
