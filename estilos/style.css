@@ -36,8 +36,8 @@ section{
 
 
     background-color: rgb(180, 180, 245);
-    width: 250px;
-    height: 500px;
+    width: 300px;
+    height: 550px;
     border-radius: 20px;
     overflow: hidden;
 
@@ -83,3 +83,24 @@ h1, p{
 
 }
 
+#el{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+
+}
+
+input{
+    padding: 6px;
+    border: solid rgba(0, 0, 0, 0.205);
+    
+}
+
+.campo{
+    
+    padding: 5px;
+    display: block;
+    margin: 5px;
+
+    
+}
